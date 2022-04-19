@@ -504,10 +504,10 @@ namespace Intersect.Server.Localization
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString errorlogged = @"An error was logged into errors.log";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString errorservercrash =
-                @"The Intersect server has encountered an error and must close. Error information can be found in resources/logs/errors.log. Press enter to exit.";
+                @"The Qahal server has encountered an error and must close. Error information can be found in resources/logs/errors.log. Press enter to exit.";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString errorservercrashnohalt =
-                @"The Intersect server has encountered an error and must close. Error information can be found in resources/logs/errors.log.";
+                @"The Qahal server has encountered an error and must close. Error information can be found in resources/logs/errors.log.";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString errortimeout = @"Too many failed requests. Please wait and try again!";
 
@@ -757,11 +757,11 @@ namespace Intersect.Server.Localization
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString started = @"Server Started. Using UDP Port #{00}";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString support =
-                @"For help, support, and updates visit: https://www.ascensiongamedev.com";
+                @"Development in Progress";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString tagline = @"                          free 2d orpg engine";
 
-            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString title = @"Intersect Server";
+            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString title = @"Qahal Server";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString version = @"Version {00}";
 
@@ -956,9 +956,9 @@ namespace Intersect.Server.Localization
         public sealed class NotificationsNamespace : LocaleNamespace
         {
 
-            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString copyright = "Copyright (C) 2020 Ascension Game Dev, All Rights Reserved";
+            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString copyright = "Copyright (C) 2022";
 
-            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString product = @"Intersect Game Engine";
+            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString product = @"Qahal";
 
         }
 
@@ -1014,7 +1014,7 @@ namespace Intersect.Server.Localization
         public sealed class PasswordResetNotificationNamespace : LocaleNamespace
         {
 
-            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString subject = @"Intersect Game Engine - Password Reset Code";
+            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString subject = @"Qahal - Password Reset Code";
 
         }
 
@@ -1083,7 +1083,7 @@ namespace Intersect.Server.Localization
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
             public readonly LocalizedString checkantivirus =
-                @"   2. Antivirus programs might also be blocking connections and you may need to add Intersect Server.exe to your antivirus exclusions.";
+                @"   2. Antivirus programs might also be blocking connections and you may need to add Qahal Server.exe to your antivirus exclusions.";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
             public readonly LocalizedString checkfirewalls =
