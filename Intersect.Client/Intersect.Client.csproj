@@ -7,10 +7,10 @@
 
   <PropertyGroup>
     <PackageId>AscensionGameDev.Intersect.Client</PackageId>
-    <Description>Game Client - Part of the Intersect 2D Game Creation Suite</Description>
+    <Description>Intersect Demo Game Client</Description>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <RootNamespace>Intersect.Client</RootNamespace>
-    <AssemblyName>Intersect Client</AssemblyName>
+    <AssemblyName>Intersect Demo</AssemblyName>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
