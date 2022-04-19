@@ -100,7 +100,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
     <Optimize>false</Optimize>
-    <DocumentationFile>..\build\debug\server\Qahal Server.xml</DocumentationFile>
+    <DocumentationFile>..\build\debug\server\Intersect Server.xml</DocumentationFile>
     <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'NoFody|AnyCPU'">
