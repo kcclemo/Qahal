@@ -759,7 +759,7 @@ namespace Intersect.Server.Localization
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString support =
                 @"Development in Progress";
 
-            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString tagline = @"                          free 2d orpg engine";
+            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString tagline = @"Have Adventures with Your Friends!";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]            public readonly LocalizedString title = @"Qahal Server";
 

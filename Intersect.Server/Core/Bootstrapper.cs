@@ -307,14 +307,13 @@ namespace Intersect.Server.Core
         {
             Console.Clear();
             Console.WriteLine();
-            Console.WriteLine(@"  _____       _                          _   ");
-            Console.WriteLine(@" |_   _|     | |                        | |  ");
-            Console.WriteLine(@"   | |  _ __ | |_ ___ _ __ ___  ___  ___| |_ ");
-            Console.WriteLine(@"   | | | '_ \| __/ _ \ '__/ __|/ _ \/ __| __|");
-            Console.WriteLine(@"  _| |_| | | | ||  __/ |  \__ \  __/ (__| |_ ");
-            Console.WriteLine(@" |_____|_| |_|\__\___|_|  |___/\___|\___|\__|");
+            Console.WriteLine(@"                         ");
+            Console.WriteLine(@",---.     |         |    ");
+            Console.WriteLine(@"|   |,---.|---.,---.|    ");
+            Console.WriteLine(@"|   |,---||   |,---||    ");
+            Console.WriteLine(@"`---\`---^`   '`---^`---'");
             Console.WriteLine(Strings.Intro.tagline);
-            Console.WriteLine(@"Copyright (C) 2020 Ascension Game Dev");
+            Console.WriteLine(@"Copyright (C) 2022");
             Console.WriteLine(Strings.Intro.version.ToString(Assembly.GetExecutingAssembly().GetName().Version));
             Console.WriteLine(Strings.Intro.support);
             Console.WriteLine(Strings.Intro.loading);
