@@ -3346,8 +3346,8 @@ Tick timer saved in server config.json.";
             public static LocalizedString Denied = @"Connection denied. Version mismatch?";
 
             public static LocalizedString gettingstarted = @"Getting Started?
-        1. Start the Intersect Server
-        2. Open the Intersect Client and Create an Account
+        1. Start the Qahal Server
+        2. Open the Qahal Client and Create an Account
         3. Login to that account here to start designing your game!";
 
             public static LocalizedString login = @"Login";
@@ -3359,7 +3359,7 @@ Tick timer saved in server config.json.";
 
             public static LocalizedString rememberme = @"Remember Me";
 
-            public static LocalizedString title = @"Intersect Editor Login";
+            public static LocalizedString title = @"Qahal Editor Login";
 
             public static LocalizedString username = @"Username: ";
 
