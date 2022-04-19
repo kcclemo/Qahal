@@ -16,7 +16,7 @@
     <ProjectGuid>{9FFC7331-87BE-403B-82A0-B86D3CCE7C53}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Intersect.Server</RootNamespace>
-    <AssemblyName>Intersect Server</AssemblyName>
+    <AssemblyName>Qahal Server</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
@@ -100,7 +100,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
     <Optimize>false</Optimize>
-    <DocumentationFile>..\build\debug\server\Intersect Server.xml</DocumentationFile>
+    <DocumentationFile>..\build\debug\server\Qahal Server.xml</DocumentationFile>
     <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'NoFody|AnyCPU'">
